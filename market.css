@@ -272,8 +272,10 @@ small {
   background-color: palevioletred;
 }
 .add-to-card {
-  padding-left: 300px;
+  padding-left: 100px;
 }
 .add-card-btn {
   background-color: rgb(70, 4, 70);
+  padding: 10px 20px;
+  margin: 0px 0;
 }
