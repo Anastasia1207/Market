@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'New Tegomin'!important;
+  /* color: #563434; */
+}
 .navbar a {
   text-decoration: none;
   color: rgb(22, 120, 145);
@@ -50,7 +54,7 @@ p {
   /* padding: 20px; */
   padding: 20px 0 20px 0;
   font-family: 'ZCOOL KuaiLe';
-  font-size:x-large;
+  font-size: x-large;
 }
 nav {
   flex: 1;
@@ -64,19 +68,6 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* .navbar a {
-  text-decoration: none;
-  color: rgb(22, 120, 145);
-} */
-/* .disabled {
-  pointer-events: none;
-  color: rgb(15, 235, 235);
-  opacity: 0.7;
-}
-.linked:active {
-  color: rgb(15, 235, 235);
-} */
-
 /* MENU ICON */
 .menu-icon {
   width: 28px;
