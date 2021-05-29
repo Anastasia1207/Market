@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-a {
+.navbar a {
   text-decoration: none;
   color: #555;
 }
@@ -36,7 +36,8 @@ p {
 .navbar {
   display: flex;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 20px 0 20px 0;
 }
 nav {
   flex: 1;
@@ -51,7 +52,7 @@ nav ul li {
   margin-right: 20px;
 }
 ul {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 /* MENU ICON */
