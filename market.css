@@ -389,3 +389,69 @@ small {
   margin: 40px auto 80px auto;
   font-size: 1.75em;
 }
+
+/* ======== PAGE NAVIGATION ======== */
+.large {
+  background: #fdfdfd;
+  padding: 1rem;
+  margin: 3rem auto;
+  border-radius: 0.2rem;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+  counter-reset: pagination;
+  text-align: center;
+}
+
+.pglarge {
+  width: 65rem;
+  padding-top: 30px;
+  padding-left: 650px;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline;
+  padding-left: 0px;
+}
+
+.pgn {
+  counter-increment: pagination;
+}
+.pgn:hover a {
+  color: #fdfdfd;
+  background-color: #1d1f20;
+  border: solid 1px #1d1f20;
+}
+.pgn.active a {
+  color: #fdfdfd;
+  background-color: #1d1f20;
+  border: solid 1px #1d1f20;
+}
+.pgn:first-child {
+  float: left;
+}
+.pgn:first-child a:after {
+  content: "Previous";
+}
+.pgn:nth-child(2) {
+  counter-reset: pagination;
+}
+.pgn:last-child {
+  float: right;
+}
+.pgn:last-child a:after {
+  content: "Next";
+}
+.pgn a {
+  border: solid 1px #d7d7d7;
+  border-radius: 0.2rem;
+  color: #7d7d7d;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5rem 0.9rem;
+}
+.pgn a:after {
+  content: " " counter(pagination) " ";
+}
