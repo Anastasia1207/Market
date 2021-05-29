@@ -5,7 +5,11 @@
 }
 .navbar a {
   text-decoration: none;
-  color: #555;
+  /* text-decoration: aqua; */
+  color: rgb(22, 120, 145);
+}
+.navbar a:hover {
+  color: rgb(11, 202, 202);
 }
 p {
   color: #555;
