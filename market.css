@@ -85,10 +85,6 @@ nav ul li {
 }
 
 /* ======== CARUSEL & RIGHT SIDE ======== */
-.row-pic {
-  width: 80%;
-padding-top: 0;
-}
 .carousel {
   max-width: 1080px;
   margin: auto;
