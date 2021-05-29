@@ -170,3 +170,15 @@ small {
   width: 150%;
   padding-right: 150px;
 }
+/* ======== FOOTER ======== */
+
+.footer {
+  position: relative;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+}
