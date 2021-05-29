@@ -191,6 +191,7 @@ small {
 
 .breadcrumb {
   font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
 }
 .previous-page {
   text-decoration: none;
@@ -241,4 +242,20 @@ small {
   padding-top: 10px;
   margin-inline-start: 10px;
   max-width: 50%;
+}
+/* ==== EXACT CATEGORY ==== */
+.main-row-articles {
+  /* padding-top: 15px; */
+  padding-bottom: 100px;
+}
+.resize {
+  width: 100px;
+  height: auto;
+  justify-items: center;
+  padding: 0 auto;
+}
+.exact-category {
+  display: inline-block;
+  width: 10px;
+  background-color: palevioletred;
 }
