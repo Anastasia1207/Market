@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'New Tegomin'!important;
+  font-family: "New Tegomin" !important;
   /* color: #563434; */
 }
 .navbar a {
@@ -53,7 +53,7 @@ p {
   align-items: center;
   /* padding: 20px; */
   padding: 20px 0 20px 0;
-  font-family: 'ZCOOL KuaiLe';
+  font-family: "ZCOOL KuaiLe";
   font-size: x-large;
 }
 nav {
@@ -270,4 +270,10 @@ small {
   display: inline-block;
   width: 10px;
   background-color: palevioletred;
+}
+.add-to-card {
+  padding-left: 300px;
+}
+.add-card-btn {
+  background-color: rgb(70, 4, 70);
 }
