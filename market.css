@@ -3,12 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'New Tegomin'!important;
+  /* color: #563434; */
+}
 .navbar a {
   text-decoration: none;
-  /* text-decoration: aqua; */
   color: rgb(22, 120, 145);
 }
 .navbar a:hover {
+  color: rgb(15, 235, 235);
+}
+.disabled {
+  pointer-events: none;
+  color: rgb(15, 235, 235) !important;
+  opacity: 0.9;
+}
+.linked:active {
   color: rgb(15, 235, 235);
 }
 p {
@@ -42,6 +53,8 @@ p {
   align-items: center;
   /* padding: 20px; */
   padding: 20px 0 20px 0;
+  font-family: 'ZCOOL KuaiLe';
+  font-size: x-large;
 }
 nav {
   flex: 1;
@@ -55,7 +68,6 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-
 /* MENU ICON */
 .menu-icon {
   width: 28px;
