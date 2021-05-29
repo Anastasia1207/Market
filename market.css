@@ -185,3 +185,15 @@ small {
   margin-inline-start: 10px;
   max-width: 50%;
 }
+/* ======== FOOTER ======== */
+
+.footer {
+  position: relative;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+}
