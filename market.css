@@ -47,6 +47,9 @@ p {
 /* body {
     font-family: !!!!;
   } */
+  h1 {
+    color:  #b11b5f;
+  }
 /* ======== NAVIGATION ======== */
 .navbar {
   display: flex;
