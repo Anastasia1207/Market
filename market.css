@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'New Tegomin'!important;
+  font-family: 'New Tegomin' !important;
   /* color: #563434; */
 }
 .navbar a {
@@ -85,16 +85,23 @@ nav ul li {
 }
 
 /* ======== CARUSEL & RIGHT SIDE ======== */
+.row-pic {
+  width: 80%;
+padding-top: 0;
+}
 .carousel {
   max-width: 1080px;
   margin: auto;
   width: 150%;
   padding-right: 150px;
+  background-color: #fff;
+  justify-content: center;
 }
 
 .col-2 {
   flex-basis: 50%;
   min-width: 400px;
+  justify-content: center;
 }
 .col-2 img {
   max-width: 100%;
