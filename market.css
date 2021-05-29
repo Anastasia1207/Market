@@ -41,8 +41,8 @@ p {
 }
 /* NEED TO ADD FONT FAMILY TO THE BODY */
 /* body {
-  font-family: !!!!;
-} */
+    font-family: !!!!;
+  } */
 /* ======== NAVIGATION ======== */
 .navbar {
   display: flex;
@@ -218,18 +218,6 @@ small {
   color: rgb(92, 17, 17);
 }
 
-/* ======== FOOTER ======== */
-.footer {
-  position: relative;
-}
-
-.footer-text {
-  font-size: 12px;
-  padding-top: 10px;
-  margin-inline-start: 10px;
-  max-width: 50%;
-}
-
 /* ======== ARTICLES ======== */
 
 .articles {
@@ -240,9 +228,7 @@ small {
 #second,
 #third {
   border-bottom: 1px solid rgb(223, 220, 220);
-  /* padding: 30px; */
   padding-bottom: 30px;
-  /* align-items: center; */
 }
 .article-nav-link {
   color: brown;
@@ -264,4 +250,16 @@ small {
 }
 .text {
   padding-left: 20px;
+}
+/* ======== FOOTER ======== */
+.footer {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
 }
