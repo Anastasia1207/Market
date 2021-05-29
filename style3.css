@@ -60,58 +60,23 @@ p {
 
 /* ======== ARTICLES ======== */
 
-.articles {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  color: white;
+.main-row-articles {
+  padding-top: 15px;
+  padding-bottom: 100px;
 }
-
-#first,
-#second,
-#third {
-  border-bottom: 1px solid rgb(223, 220, 220);
-  padding: 30px;
-  padding-bottom: 30px;
+.resize {
+  width: 100px;
+  height: auto;
+  justify-items: center;
+  padding: 0 auto;
+}
+.first {
   align-items: center;
-}
-.article-nav-link {
-  color: blue;
-  text-decoration: none;
-  transition: opacity 0.1s linear;
-  font-weight: 900;
-  font-size: 22px;
-}
-.article-nav-link:hover {
-  color: rgb(220, 220, 224);
-  opacity: 1;
-}
-
-.img {
-  width: 100%;
-}
-.staring-cat {
-  padding-bottom: 30px;
-}
-.text {
   padding-left: 20px;
 }
-/* ======== PAGE NAVIGATION ======== */
-
-.page-navigation {
-  padding-bottom: 70px;
-  padding-top: 0px;
-  padding-right: 50px;
-  direction: none;
-}
-.page-link {
-  color: white !important;
-  border-radius: 3px;
-  background-color: black;
-  transition: opacity 0.1s linear;
-}
-.page-link:hover {
-  background-color: grey;
-  text-decoration: none !important;
+.second,
+.third {
+  padding-top: 20px;
 }
 
 /* ======== FOOTER ======== */
@@ -123,7 +88,8 @@ p {
 
 .footer-text {
   font-size: 12px;
-  padding-top: 10px;
+  padding-block: 10px;
   margin-inline-start: 10px;
   max-width: 50%;
+  position: absolute;
 }

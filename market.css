@@ -142,7 +142,7 @@ nav ul li {
 }
 .title::after {
   content: "";
-  background: #ff523b;
+  background: rgb(177, 16, 43);
   width: 80px;
   height: 5px;
   border-radius: 5px;
