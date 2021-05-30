@@ -5,29 +5,27 @@
 }
 body {
   font-family: "New Tegomin" !important;
-  /* color: #563434; */
 }
 .navbar a {
   text-decoration: none;
   color: rgb(22, 120, 145);
 }
 .navbar a:hover {
-  color: rgb(15, 235, 235);
+  /* color: rgb(15, 235, 235); */
+  color: #b11b5f;
 }
 .disabled {
   pointer-events: none;
-  color: rgb(15, 235, 235) !important;
+  /* color: rgb(15, 235, 235) !important; */
+  color: #640530 !important;
   opacity: 0.9;
-}
-.linked:active {
-  color: rgb(15, 235, 235);
 }
 p {
   color: #555;
 }
 .container {
   max-width: 1300px;
-  margin: auto;
+  margin: 0 auto;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -54,7 +52,6 @@ h1 {
 .navbar {
   display: flex;
   align-items: center;
-  /* padding: 20px; */
   padding: 20px 0 20px 0;
   font-family: "ZCOOL KuaiLe";
   font-size: x-large;
@@ -71,12 +68,12 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-/* MENU ICON */
+/* ======== MENU ICON ======== */
 .menu-icon {
   width: 28px;
   margin-left: 20px;
 }
-/* media query for menu */
+/* ======== media query for menu ======== */
 @media only screen and (max-width: 800px) {
   nav ul {
     position: absolute;
@@ -87,15 +84,15 @@ nav ul li {
   }
 }
 
-/* ======== CARUSEL & RIGHT SIDE ======== */
-.carousel {
+/* ======== BLOCK CARUSEL IN PAST ======== */
+/* .carousel {
   max-width: 1080px;
   margin: auto;
   width: 150%;
   padding-right: 150px;
   background-color: #fff;
   justify-content: center;
-}
+} */
 
 .col-2 {
   flex-basis: 50%;
@@ -113,7 +110,7 @@ nav ul li {
 }
 .btn {
   display: inline-block;
-  background: #ff523b;
+  background: rgb(18, 157, 192) !important;
   color: #fff;
   padding: 8px 30px;
   margin: 30px 0;
@@ -121,9 +118,9 @@ nav ul li {
   transition: background 0.5s;
 }
 .btn:hover {
-  background: #563434;
+  background: rgb(84, 202, 231) !important;
 }
-/* ======== Categories ======== */
+/* ======== CATEGORIES ======== */
 .categories {
   margin: 70px 0;
 }
@@ -160,7 +157,7 @@ nav ul li {
 }
 .title::after {
   content: "";
-  background: #ff523b;
+  background: rgb(22, 120, 145);
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -181,7 +178,7 @@ h4 {
 }
 /* ======== STARS ======== */
 .checked {
-  color: orange;
+  color: #18b8d6;
 }
 /* ======== OFFER ======== */
 .offer {
@@ -195,27 +192,19 @@ h4 {
 small {
   color: #555;
 }
-/* ======== FOOTER ======== */
-.footer {
-  position: relative;
-}
-.footer-text {
-  font-size: 12px;
-  padding-top: 10px;
-  margin-inline-start: 10px;
-  max-width: 50%;
-}
+
 /* ======== BREADCRUMB ======== */
 .smallest-container {
   height: 10vh;
   display: flex;
   justify-content: left;
   align-items: center;
+  padding-left: 10px !important;
 }
 :root {
-  --breadcrumb-theme-1: #e91e63;
+  --breadcrumb-theme-1: pink;
   --breadcrumb-theme-2: #fff;
-  --breadcrumb-theme-3: #d80d52;
+  --breadcrumb-theme-3: pink;
 }
 .breadcrumb {
   text-align: center;
@@ -311,17 +300,17 @@ small {
 #second,
 #third {
   border-bottom: 1px solid rgb(223, 220, 220);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .article-nav-link {
-  color: brown;
+  color: rgb(22, 120, 145);
   text-decoration: none;
   transition: opacity 0.1s linear;
   font-weight: 900;
   font-size: 22px;
 }
 .article-nav-link:hover {
-  color: rgb(220, 220, 224);
+  color: #d80d52;
   opacity: 1;
 }
 
@@ -334,19 +323,8 @@ small {
 .text {
   padding-left: 20px;
 }
-/* ======== FOOTER ======== */
-.footer {
-  position: relative;
-  padding-bottom: 20px;
-}
 
-.footer-text {
-  font-size: 12px;
-  padding-top: 10px;
-  margin-inline-start: 10px;
-  max-width: 50%;
-}
-/* === BUY NOW === */
+/* ===== BUY NOW ===== */
 
 .shop-item {
   margin: 30px;
@@ -390,6 +368,7 @@ small {
   margin-right: 1.5em;
   padding-bottom: 10px;
   margin-top: 10px;
+  /* color: rgb(18, 157, 192); */
 }
 
 .cart-row {
@@ -422,18 +401,6 @@ small {
   border-radius: 10px;
 }
 
-/* .btn-danger {
-  color: white;
-  background-color: #ff523b;
-  border: none;
-  border-radius: 0.3em;
-  font-weight: bold;
-} */
-/* 
-.btn-danger:hover {
-  background-color: #cc4c4c;
-} */
-
 .cart-quantity-input {
   height: 34px;
   width: 50px;
@@ -446,14 +413,6 @@ small {
   font-size: 1.2em;
   margin-right: 25px;
 }
-
-/* .cart-row:last-child {
-  border-bottom: 1px solid black;
-} */
-
-/* .cart-row:last-child .cart-column {
-  border: none;
-} */
 
 .cart-total {
   text-align: end;
@@ -477,23 +436,24 @@ small {
   display: block;
   margin: 40px auto 80px auto;
   font-size: 1.75em;
+  background-color: rgb(18, 157, 192) !important;
 }
 
 /* ======== PAGE NAVIGATION ======== */
-.large {
-  background: #fdfdfd;
+/* .large {
+  background: #640530;
   padding: 1rem;
   margin: 3rem auto;
   border-radius: 0.2rem;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
   counter-reset: pagination;
   text-align: center;
-}
+} */
 
 .pglarge {
   width: 65rem;
   padding-top: 30px;
-  padding-left: 650px;
+  padding-left: 33%;
 }
 
 ul,
@@ -508,16 +468,17 @@ li {
 }
 .pgn:hover a {
   color: #fdfdfd;
-  background-color: #1d1f20;
-  border: solid 1px #1d1f20;
+  background-color: rgb(22, 120, 145);
+  border: solid 1px rgb(22, 120, 145);
 }
 .pgn.active a {
   color: #fdfdfd;
-  background-color: #1d1f20;
-  border: solid 1px #1d1f20;
+  background-color: rgb(22, 120, 145);
+  border: solid 1px rgb(22, 120, 145);
 }
 .pgn:first-child {
   float: left;
+  padding-right: 5px;
 }
 .pgn:first-child a:after {
   content: "Previous";
@@ -527,12 +488,14 @@ li {
 }
 .pgn:last-child {
   float: right;
+  padding-left: 5px;
 }
 .pgn:last-child a:after {
   content: "Next";
 }
 .pgn a {
-  border: solid 1px #d7d7d7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  border: solid 1px pink;
   border-radius: 0.2rem;
   color: #7d7d7d;
   text-decoration: none;
@@ -540,7 +503,19 @@ li {
   display: inline-block;
   text-align: center;
   padding: 0.5rem 0.9rem;
+  background-color: pink;
 }
 .pgn a:after {
   content: " " counter(pagination) " ";
+}
+/* ======== FOOTER ======== */
+.footer {
+  position: relative;
+  padding-bottom: 20px;
+}
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
 }

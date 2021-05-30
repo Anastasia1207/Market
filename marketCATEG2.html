@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CATEGORY 2</title>
     <link rel="stylesheet" href="market.css" />
-    <!-- NEED TO ADD LINK FONT FAMILI!!!!!!!! -->
+    <!-- /* ======== FONT-FAMILY ======== */ -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
@@ -17,14 +25,19 @@
       <div class="container">
         <!-- /* ======== NAVIGATION ======== */ -->
 
+        <!-- /* ======== NAVIGATION ======== */ -->
         <div class="navbar">
           <div class="logo">
-            <img src="Images/shopping.jpeg" width="125px" />
+            <img src="Images/loggo.png" width="300px" />
           </div>
           <nav>
             <ul>
-              <li><a href="marketHOME.html">Home</a></li>
-              <li><a href="marketCATEG1.html">Products</a></li>
+              <li>
+                <a href="marketHOME.html"> Home</a>
+              </li>
+              <li>
+                <a href="marketCATEG1.html">Products</a>
+              </li>
               <li>
                 <a href="marketByNow.html"
                   >Buy Now
@@ -39,6 +52,18 @@
           </nav>
         </div>
         <div class="small-container">
+          <!-- /* ======== BREADCRUMB ======== */ -->
+
+          <div class="breadcrumb">
+            <a class="breadcrumb__step" href="marketHOME.html">Home</a>
+            <a class="breadcrumb__step" href="marketCATEG1.html">Products</a>
+
+            <a class="breadcrumb__step breadcrumb__step--active" href="#"
+              >Catalog</a
+            >
+            <a class="breadcrumb__step" href="marketCATEG3.html">Kenny</a>
+          </div>
+          <!-- /* ======== BREADCRUMB ENDS ======== */ -->
           <div class="row" id="first">
             <div class="col-md-4">
               <img src="Images/cat-smth.jpg" />
