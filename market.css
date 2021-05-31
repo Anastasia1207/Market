@@ -230,14 +230,14 @@ small {
 /* ======== BREADCRUMB ======== */
 .breadcrumb {
   /* font-family: "Times New Roman", Times, serif; */
-  font-family: 'New Tegomin';
+  font-family: "ZCOOL KuaiLe";
 }
 .breadcrumb__step {
   text-decoration: none;
   outline: none;
   display: block;
   float: left;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 36px;
   padding: 0 10px 0 60px;
   position: relative;
