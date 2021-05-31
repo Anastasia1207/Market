@@ -578,3 +578,7 @@ li {
 .pgn-last {
   padding-left: 5px;
 }
+
+.row-artickle-second {
+  flex-direction: row;
+}
