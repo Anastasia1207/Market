@@ -229,8 +229,8 @@ small {
 }
 /* ======== BREADCRUMB ======== */
 .breadcrumb {
-  /* font-family: "Times New Roman", Times, serif; */
-  font-family: "ZCOOL KuaiLe";
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: "ZCOOL KuaiLe"; */
 }
 .breadcrumb__step {
   text-decoration: none;
@@ -323,7 +323,9 @@ small {
   padding-bottom: 30px;
 }
 .article-nav-link {
-  color: brown;
+  /* color: brown; */
+  color:  #b11b5f;
+  text-align: center;
   text-decoration: none;
   transition: opacity 0.1s linear;
   font-weight: 900;
