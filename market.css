@@ -582,3 +582,6 @@ li {
 .row-artickle-second {
   flex-direction: row;
 }
+.image-categ2 {
+  width: 150% !important;
+}
