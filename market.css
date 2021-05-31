@@ -16,8 +16,9 @@ body {
 }
 .disabled {
   pointer-events: none;
-  color: rgb(15, 235, 235) !important;
-  opacity: 0.9;
+  color: rgb(28, 196, 196) !important;
+  /* color: rgb(15, 235, 235) !important; */
+  opacity: 0.7;
 }
 .linked:active {
   color: rgb(15, 235, 235);
