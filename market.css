@@ -25,6 +25,7 @@ body {
 }
 p {
   color: #555;
+  text-align: justify;
 }
 .container {
   max-width: 1300px;
@@ -50,6 +51,7 @@ p {
   } */
   h1 {
     color:  #b11b5f;
+    text-align: center;
   }
 /* ======== NAVIGATION ======== */
 .navbar {
@@ -209,7 +211,8 @@ small {
 /* ======== BREADCRUMB ======== */
 
 .breadcrumb {
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: 'New Tegomin';
 }
 .previous-page {
   text-decoration: none;
