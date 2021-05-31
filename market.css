@@ -5,6 +5,7 @@
 }
 body {
   font-family: "New Tegomin" !important;
+  /* color: #563434; */
 }
 .navbar a {
   text-decoration: none;
@@ -16,6 +17,7 @@ body {
 .disabled {
   pointer-events: none;
   color: rgb(28, 196, 196) !important;
+  /* color: rgb(15, 235, 235) !important; */
   opacity: 0.7;
 }
 .linked:active {
@@ -43,6 +45,10 @@ p {
 .header .row {
   margin-top: 70px;
 }
+/* NEED TO ADD FONT FAMILY TO THE BODY */
+/* body {
+    font-family: !!!!;
+  } */
 h1 {
   color: #b11b5f;
   text-align: center;
@@ -51,6 +57,7 @@ h1 {
 .navbar {
   display: flex;
   align-items: center;
+  /* padding: 20px; */
   padding: 20px 0 20px 0;
   font-family: "ZCOOL KuaiLe";
   font-size: x-large;
@@ -67,6 +74,7 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
+
 /* ======== MENU ICON ======== */
 .menu-icon {
   width: 28px;
@@ -98,6 +106,7 @@ nav ul li {
     cursor: pointer;
   }
 }
+
 /* ======== CARUSEL & RIGHT SIDE ======== */
 .carousel {
   max-width: 1080px;
@@ -208,6 +217,16 @@ small {
 }
 /* ======== Album ======== */
 
+/* ======== FOOTER ======== */
+.footer {
+  position: relative;
+}
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+}
 /* ======== BREADCRUMB ======== */
 
 :root {
@@ -321,6 +340,7 @@ small {
   padding-bottom: 30px;
 }
 .article-nav-link {
+  /* color: brown; */
   color: #b11b5f;
   text-align: center;
   text-decoration: none;
@@ -342,7 +362,18 @@ small {
 .text {
   padding-left: 20px;
 }
+/* ======== FOOTER ======== */
+.footer {
+  position: relative;
+  padding-bottom: 20px;
+}
 
+.footer-text {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-inline-start: 10px;
+  max-width: 50%;
+}
 /* === BUY NOW === */
 
 .shop-item {
@@ -419,17 +450,17 @@ small {
   border-radius: 10px;
 }
 
-.btn-danger {
+/* .btn-danger {
   color: white;
   background-color: #ff523b;
   border: none;
   border-radius: 0.3em;
   font-weight: bold;
-}
-
+} */
+/* 
 .btn-danger:hover {
   background-color: #cc4c4c;
-}
+} */
 
 .cart-quantity-input {
   height: 34px;
@@ -444,12 +475,13 @@ small {
   margin-right: 25px;
 }
 
-.cart-row:last-child {
+/* .cart-row:last-child {
   border-bottom: 1px solid black;
-}
-*/ .cart-row:last-child .cart-column {
+} */
+
+/* .cart-row:last-child .cart-column {
   border: none;
-}
+} */
 
 .cart-total {
   text-align: end;
@@ -552,15 +584,4 @@ li {
 }
 .image-categ2 {
   width: 150% !important;
-}
-/* ======== FOOTER ======== */
-.footer {
-  position: relative;
-  padding-bottom: 20px;
-}
-.footer-text {
-  font-size: 12px;
-  padding-top: 10px;
-  margin-inline-start: 10px;
-  max-width: 50%;
 }
