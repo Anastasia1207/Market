@@ -39,7 +39,7 @@ p {
   background: radial-gradient(#fff, #ffd6d6);
 }
 .header .row {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 /* NEED TO ADD FONT FAMILY TO THE BODY */
 /* body {
@@ -70,8 +70,8 @@ nav ul li {
 }
 /* ======== MENU ICON ======== */
 .menu-icon {
-  width: 28px;
-  margin-left: 20px;
+  width: 30px;
+  margin-left: 10px;
 }
 /* ======== media query for menu ======== */
 @media only screen and (max-width: 800px) {
@@ -405,8 +405,8 @@ small {
   height: 34px;
   width: 50px;
   border-radius: 5px;
-  border: 1px solid #56ccf2;
-  background-color: #eee;
+  border: 1px solid rgb(12, 140, 172) !important;
+  background-color: white;
   color: #333;
   padding: 0;
   text-align: center;
@@ -431,12 +431,31 @@ small {
   color: #333;
   font-size: 1.1em;
 }
-
+.btn-primary {
+  border-color: rgb(18, 157, 192) !important;
+}
+.btn-primary:hover {
+  background-color: rgb(58, 180, 211) !important;
+  border-color: rgb(18, 157, 192) !important;
+}
 .btn-purchase {
   display: block;
   margin: 40px auto 80px auto;
   font-size: 1.75em;
   background-color: rgb(18, 157, 192) !important;
+  border-color: rgb(18, 157, 192) !important;
+}
+.btn-danger {
+  color: white;
+  background-color: rgb(12, 140, 172) !important;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+  border-color: rgb(12, 140, 172) !important;
+}
+.btn-danger:hover {
+  background-color: #cc4c4c !important;
+  border-color: #cc4c4c !important;
 }
 
 /* ======== PAGE NAVIGATION ======== */
@@ -508,6 +527,7 @@ li {
 .pgn a:after {
   content: " " counter(pagination) " ";
 }
+
 /* ======== FOOTER ======== */
 .footer {
   position: relative;
@@ -518,4 +538,7 @@ li {
   padding-top: 10px;
   margin-inline-start: 10px;
   max-width: 50%;
+}
+.album-footer {
+  padding-top: 130px;
 }
